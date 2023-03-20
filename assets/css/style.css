@@ -138,12 +138,37 @@ img {
   background-size: cover;
 }
 
+/* About */
+.about-image-content {
+  background-color: var(--c-brand);
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  width: calc(100% - 50px);
+  transform: translateX(-50%);
+  pad: 24px;
+  transition: var(--transition);
+  opacity: 0;
+}
+
+.about-image:hover .about-image-content {
+  opacity: 1;
+  bottom: 24px;
+}
+
 /* Section */
 .section-title {
   margin-bottom: 40px;
 }
 
 .section-title .line {
+  width: 60px;
+  height: 4px;
+  background-color: var(--c-brand);
+  margin: 16px auto 24px auto;
+}
+
+.line {
   width: 60px;
   height: 4px;
   background-color: var(--c-brand);
