@@ -6,20 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinctamore - Home</title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon-32x32.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
     <link rel="stylesheet" href="assets/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="assets/remixicon/remixicon.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <!-- <img src="assets/img/logo-1.png" alt="navbar logo" style="width: 104px;"> -->
-                <h1 class="nav-text">Cinct<span style="color: black;">amore</span></h1>
+                <h1 class="nav-text">Cinct<span style="color: #6970dd;">amore</span></h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -54,9 +59,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-uppercase text-white fw-semibold display-1">Welcome To Cinctamore</h1>
-                    <h5 class="text-white mt-3 mb-4 fs-1">A Pattern Of Good Works</h5>
-                    <div>
+                    <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Welcome To
+                        Cinctamore</h1>
+                    <h5 class="text-white mt-3 mb-4 fs-1" data-aos="fade-right">A Pattern Of Good Works</h5>
+                    <div data-aos="fade-up" data-aos-delay="50">
                         <a href="#" class="btn btn-brand me-2">Get Started</a>
                         <a href="#" class="btn btn-light ms-2">Contact Us</a>
                     </div>
@@ -70,7 +76,7 @@
     <section id="about" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">About Us</h1>
                         <div class="line"></div>
@@ -83,7 +89,7 @@
                 </div>
             </div>
             <div class="row justify-content-between align-item-center">
-                <div class="col-lg-6 about-image image-zoom">
+                <div class="col-lg-6 about-image image-zoom" data-aos="fade-left" data-aos-delay="50">
                     <div class="image-zoom-wrapper">
                         <img src="./assets/img/about-1.jpg" alt="Ceo">
                         <div class="about-image-content text-center">
@@ -94,7 +100,7 @@
 
 
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="50">
                     <h1>About Cinctamore</h1>
                     <p class="mt-3 mb-4">Our name reflects our belief that, the greatest of what is possible can only be
                         achieved when what we do as a team is
@@ -140,7 +146,7 @@
     <section id="services" class="section-padding border-top section-bg">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
                         <h1 class="display4 fw-semibold">Services</h1>
                         <div class="line"></div>
@@ -150,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center mb-4">
+            <div class="row text-center mb-4" data-aos="fade-down" data-aos-delay="50">
                 <div class="col-lg-4 col-sm-6">
                     <div class="service theme-shadow p-lg-5 p-4">
                         <div class="iconbox">
@@ -190,7 +196,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row text-center" data-aos="fade-down" data-aos-delay="100">
                 <div class="col-lg-4 col-sm-6">
                     <div class="service theme-shadow p-lg-5 p-4">
                         <div class="iconbox">
@@ -236,7 +242,7 @@
     <section id="portfolio" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">Portfolio</h1>
                         <div class="line"></div>
@@ -310,7 +316,7 @@
     <section id="testimonials" class="section-padding section-bg">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">Testimonials</h1>
                         <div class="line"></div>
@@ -319,7 +325,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row gy-5 gx-4">
+            <div class="row gy-5 gx-4" data-aos="fade-down" data-aos-delay="100">
                 <div class="col-lg-4 col-sm-6">
                     <div class="review">
                         <div class="review-head p-4 bg-white theme-shadow">
@@ -467,7 +473,7 @@
     <section id="team" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
                         <h1 class="display-4 fw-semibold">Team Members</h1>
                         <div class="line"></div>
@@ -476,7 +482,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-4 text-center">
+            <div class="row g-4 text-center" data-aos="fade-down" data-aos-delay="100">
                 <div class="col-md-4">
                     <div class="team-member image-zoom">
                         <div class="image-zoom-wrapper">
@@ -519,18 +525,22 @@
     <section id="contact" class="section-padding section-bg">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
                     <div class="section-title">
-                        <h1 class="display-4 fw-semibold text-white">Get In Touch</h1>
+                        <h1 class="display-4 fw-semibold">Get In Touch</h1>
                         <div class="line bg-white"></div>
                         <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Possimus iure rerum commodi dolore voluptas eveniet.</p>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="50">
                 <div class="col-lg-8">
                     <form action="#" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
+                        <div class="section-title mb-0">
+                            <h2 class="text-center">Contact Form</h2>
+                            <div class="line mb-0"></div>
+                        </div>
                         <div class="form-group col-lg-6">
                             <input type="text" class="form-control" placeholder="Enter Name">
                         </div>
@@ -558,16 +568,16 @@
     <!-- Contact End -->
 
     <!-- Footer Start -->
-    <footer class="bg-dark pb-4">
+    <footer class="bg-dark">
         <div class="footer-top">
             <div class="container">
-                <div class="row gy-5">
+                <div class="row gy-5" data-aos="fade-up" data-aos-delay="50">
                     <div class="col-lg-4 col-sm-6">
                         <a href=""><img src="./assets/img/cinctamore-logo-1.png" alt=""></a>
-                        <div class="line"></div>
+                        <!-- <div class="line"></div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Vitae ratione repellendus optio repellat?</p>
-                        <div>
+                            Vitae ratione repellendus optio repellat?</p> -->
+                        <div class="social-icons">
                             <a href="#"><i class="ri-twitter-fill"></i></a>
                             <a href="#"><i class="ri-instagram-fill"></i></a>
                             <a href="#"><i class="ri-facebook-fill"></i></a>
@@ -575,28 +585,39 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <h5>Services</h5>
+                        <h5 class="mb-0 text-white text-center">Contact</h5>
                         <div class="line"></div>
-                        <ul>
-                            <li><a href="#">Service 1</a></li>
-                            <li><a href="#">Service 2</a></li>
-                            <li><a href="#">Service 3</a></li>
-                            <li><a href="#">Service 4</a></li>
-                            <li><a href="#">Service 5</a></li>
-                            <li><a href="#">Service 6</a></li>
+                        <ul class="text-center">
+                            <li>20 Kusia Street, Kokomlemle, Accra.</li>
+                            <li>+233 (0)50 139 8383</li>
+                            <li>+233 (0)20 068 5434</li>
+                            <li>adjasai(at)cinctamore.com</li>
+                            <li>Mon - Sat: 9:00 - 18:00</li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <h5>Services</h5>
+                        <h5 class="mb-0 text-white text-center">Services</h5>
                         <div class="line"></div>
-                        <ul>
-                            <li><a href="#">Service 1</a></li>
-                            <li><a href="#">Service 2</a></li>
-                            <li><a href="#">Service 3</a></li>
-                            <li><a href="#">Service 4</a></li>
-                            <li><a href="#">Service 5</a></li>
-                            <li><a href="#">Service 6</a></li>
+                        <ul class="text-center">
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Construction</a></li>
+                            <li><a href="#">Urban Design</a></li>
+                            <li><a href="#">Engineering</a></li>
+                            <li><a href="#">Construction Materials</a></li>
+                            <li><a href="#">Digital Fabrication</a></li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© Copyright Cinctamore. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed By <a href="#">Yohanan Consult</a></p>
                     </div>
                 </div>
             </div>
@@ -608,6 +629,7 @@
 
     <script src="assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
