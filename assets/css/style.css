@@ -127,6 +127,17 @@ img {
   color: white;
 }
 
+/* Breadcrumb */
+#breadcrumb {
+  background: linear-gradient(
+      rgba(var(--c-brand-rgb), 0.507),
+      rgba(var(--c-brand-rgb), 0.438)
+    ),
+    url(../img/hero-carousel/hero-carousel-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 /* Hero */
 #hero {
   background: linear-gradient(
