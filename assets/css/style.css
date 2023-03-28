@@ -79,7 +79,7 @@ img {
 }
 
 .image-zoom:hover .image-zoom-wrapper img {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 /* Navbar */
 .navbar {
@@ -140,11 +140,6 @@ img {
 
 /* Hero */
 #hero {
-  background: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.507),
-      rgba(var(--c-brand-rgb), 0.438)
-    ),
-    url(../img/hero-carousel/hero-carousel-1.jpg);
   background-position: center;
   background-size: cover;
 }
