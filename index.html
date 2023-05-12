@@ -2,416 +2,542 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <title>Home - Mackess Tech Academy</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <title>Home - Mackess Recruiting & Consulting</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicon -->
+    <!-- Favicons -->
+    <link href="img/icons/favicon-32x32.png" rel="icon">
+    <link href="img/icons/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon-32x32.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="wrap">
-
-    <!-- ======= Hero Section ======= -->
-    <section id="hero">
-      <div class="hero-container" data-aos="fade-up">
-        <!-- <h1>Start your new digital experience with <span>Mackess Recruiting</span></h1> -->
-        <h1>MACKESS RECRUITING & CONSULTING</h1>
-        <h2>Mackess Recruiting offers the comprehensive capabilities and deep industry knowledge necessary to help you
-          solve the
-          most complex issues of your organization.</h2>
-        <div class="row">
-          <a href="#about" class="btn-get-started scrollto mb-3">Get Started</a>
-          <a href="contact.html" class="btn-get-started scrollto">Talk To Us</a>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
+    </div>
+    <!-- Spinner End -->
 
-      </div>
-    </section><!-- End Hero -->
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-      <div class="container d-flex align-items-center justify-content-between">
-
-        <div class="logo">
-          <!-- <h1 class="text-light"><a href="index.html"><span>Mackess R&C</span></a></h1> -->
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html"><img src="assets/img/mackess-logo.jpg" alt="" class="img-fluid"></a>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <!-- <h2 class="m-0 text-primary">Mackess Tech Academy</h2> -->
+            <img src="img/icons/mta-logo.png" alt="" width="220" height="70">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about-us.html" class="nav-item nav-link">About Us</a>
+                <a href="what-we-do.html" class="nav-item nav-link">What We Do</a>
+                <a href="contact-us.html" class="nav-item nav-link">Our Contact</a>
+            </div>
+            <a href="contact.html#contactForm" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i
+                    class="fa fa-arrow-right ms-3"></i></a>
         </div>
+    </nav>
+    <!-- Navbar End -->
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-            <li><a class="nav-link scrollto" href="why-choose-us.html">Why Us</a></li>
-            <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
 
-      </div>
-    </header><!-- End Header -->
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/hero/hero-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Mackess Tech Academy
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning Platform
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
+                                    eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/hero/hero-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Mackess Tech Academy
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">Get Educated From The Comfort Of
+                                    Your Home
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
+                                    eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/hero/hero-3.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Mackess Tech Academy
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">Project Based Learning
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
+                                    eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/hero/hero-4.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Mackess Tech Academy
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown">1-On-1 Mentoring
+                                </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
+                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
+                                    eirmod elitr.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
+                                    More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
 
-    <main id="main">
 
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3">Skilled Instructors</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="mb-3">Online Classes</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <h5 class="mb-3">Project-Based</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                            <h5 class="mb-3">Mentoring</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
 
-          <div class="row">
-            <div style="background-image: url(assets/img/about2.jpg)" data-aos="fade-right"
-              class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-            <div class="col-xl-7 pt-4 pt-lg-0 d-flex align-items-stretch">
-              <div class="content d-flex flex-column justify-content-center" data-aos="fade-left">
-                <h3>About Mackess Recruiting And Consulting</h3>
-                <p>
-                  <!-- IT RECRUITING & CONSULTING -->
-                </p>
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                            style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to Mackess Tech Academy</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate
+                            </p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Work Opportunities Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Work</h6>
+                <h1 class="mb-5">Career Opportunities</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Cybersecurity Analyst</h5>
+                                    <!-- <small class="text-primary">49 Courses</small> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">Compliance Officer</h5>
+                                    <!-- <small class="text-primary">49 Courses</small> -->
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                                    style="margin: 1px;">
+                                    <h5 class="m-0">InfoSecc Analyst</h5>
+                                    <!-- <small class="text-primary">49 Courses</small> -->
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt=""
+                            style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                            style="margin:  1px;">
+                            <h5 class="m-0">IT Auditor</h5>
+                            <!-- <small class="text-primary">49 Courses</small> -->
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Work Opportunities End -->
+
+
+    <!-- Our Process Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">How</h6>
+                <h1 class="mb-5">Our Process</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4 mb-3">
+                            <!-- <h3 class="mb-0">9-10 Weeks</h3> -->
+                            <h5 class="mb-4">Project-Based Teaching</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4 mb-3">
+                            <!-- <h3 class="mb-0">2 Weeks</h3> -->
+                            <h5 class="mb-4">Mentoring And 1-To-1 Sessions</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <!-- <h3 class="mb-0">10 Days</h3> -->
+                            <h5 class="mb-4">Interview Preparations</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Process End -->
+
+
+    <!-- Instructors Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Our Instructors Are:</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-member.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Adaptable</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-member.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Certified</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-member.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Industry Tested</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-member.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Good Communicators</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Instructors End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg"
+                        style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">Home</a>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">What We Do</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Enquiry</h4>
+                    <p>Would you not rather talk to Us?</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
                 <div class="row">
-                  <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Capabilities</h4>
-                    <p>Mackess Recruiting offers the comprehensive capabilities and deep industry knowledge necessary to
-                      help you solve the
-                      most complex issues of your organization. Since inception, we’re proud to say that each year we
-                      have a bigger list of
-                      returning and new clients.</p>
-                  </div>
-                  <div class="col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-                    <i class="bx bx-images"></i>
-                    <h4>Requirements</h4>
-                    <p>Hiring is one the most important people function an organization has, and most of them aren’t as
-                      good at it as they
-                      think. Refocusing your
-                      resources on hiring better will have a higher return than almost any training program you can
-                      develop. We identify the role requirements in an organization and designs the job description and
-                      skill requirements for that
-                      role.</p>
-                  </div>
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;All Right Reserved.
+                        Made By <a class="border-bottom" target="_blank" href="https://yohananconsult.com">Yohanan
+                            Consult</a>
+                    </div>
                 </div>
-              </div><!-- End .content-->
             </div>
-          </div>
-
         </div>
-      </section><!-- End About Section -->
+    </div>
+    <!-- Footer End -->
 
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients">
-        <div class="container">
 
-          <div class="row">
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </div>
 
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="" data-aos="zoom-in"
-                data-aos-delay="100">
-            </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" data-aos="zoom-in"
-                data-aos-delay="200">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" data-aos="zoom-in"
-                data-aos-delay="300">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" data-aos="zoom-in"
-                data-aos-delay="400">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" data-aos="zoom-in"
-                data-aos-delay="500">
-            </div>
-
-          </div>
-
-        </div>
-      </section><!-- End Clients Section -->
-
-      <!-- ======= Features Section ======= -->
-      <section id="features" class="features">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="card" data-aos="fade-up">
-                <img src="assets/img/mission.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <i class="bx bx-tachometer"></i>
-                  <h5 class="card-title">Our Mission</h5>
-                  <p class="card-text">To create lasting relationships with our clients and candidates based on truth,
-                    integrity, trust and mutual respect.
-                    To be innovative and creative and add value to the recruitment process at every opportunity.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5 mt-md-0 d-flex align-items-stretch">
-              <div class="card" data-aos="fade-up" data-aos-delay="150">
-                <img src="assets/img/goal.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <i class="bx bx-file"></i>
-                  <h5 class="card-title">Our Plan</h5>
-                  <p class="card-text">To work with clients to achieve excellence through thorough recruitment and
-                    timely consultation. To provide a
-                    excellent customer care services to our clients.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <img src="assets/img/vision.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <i class="bx bx-show"></i>
-                  <h5 class="card-title">Our Vision</h5>
-                  <p class="card-text">We are passionate and aspire to adopt the highest possible standard in our field
-                    of work and function with trust and transparency.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section><!-- End Features Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services" style="background-color: #e7e7e7;">
-        <div class="container">
-
-          <div class="section-title" data-aos="fade-down">
-            <span>Services</span>
-            <h2>Services</h2>
-            <p>At Mackess Recruiting and Consulting, we provide the following services:</p>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                <h4 class="text-center">IT RECRUITING</h4>
-                <p>At Mackess, we have experienced IT Recruiters that offer a wide range of professional services to
-                  suit all your needs
-                  and requirements. Contact us today to find out how we can help. Looking forward to talking to you. ​
-                  We focus on
-                  recruiting the right candidates for the right jobs. Our clients base is extensive and our reputation
-                  speaks for itself</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <h4 class="text-center">IT CONSULTING</h4>
-                <p>We are backed by a team of experienced professionals, our strategic services meet the needs of all
-                  types and sizes of
-                  clients - from small startups to large firms - and deliver lasting changes with measurable growth.We
-                  analyze and
-                  diagnose our clients IT infrastructure. understand our client's business needs, and design and
-                  implement a customized
-                  technology solution.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section><!-- End Services Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
-        <div class="container position-relative">
-
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/team-member.png" class="testimonial-img" alt="">
-                  <h3>Mr. Mike Jones</h3>
-                  <!-- <h4>Ceo &amp; Founder</h4> -->
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Great support and values alignment with clarity for our organization.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/team-member.png" class="testimonial-img" alt="">
-                  <h3>Moses A. McKenzie</h3>
-                  <!-- <h4>Designer</h4> -->
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Great candidate sourcing, timely responses and making sure we were satisfied with chosen candidate.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/team-member.png" class="testimonial-img" alt="">
-                  <h3>Anonymous User</h3>
-                  <!-- <h4>Designer</h4> -->
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I would highly recommend this recruitment company. Very quick response to my application and they
-                    kept me up to date
-                    with every stage of the process. I would highly recommend this company to all.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/team-member.png" class="testimonial-img" alt="">
-                  <h3>Anonymous User</h3>
-                  <!-- <h4>Designer</h4> -->
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I highly recommend Mackess Recruiting and Consulting for anyone who is struggling with the next
-                    steps of their business. I was at a stalemate with my
-                    business, and was only able to move my business forward in ways that I never knew how until I
-                    received Mackess' guidance.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img src="assets/img/team-member.png" class="testimonial-img" alt="">
-                  <h3>Anonymous User</h3>
-                  <!-- <h4>Designer</h4> -->
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    I couldn’t be happier with the service I have received with Mackess Recruiting and Consulting. They
-                    have a deep understanding of their craft and have
-                    done a great job communicating with me through the process.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div><!-- End testimonial item -->
-
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-
-        </div>
-      </section><!-- End Testimonials Section -->
-
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <!-- <h3>Mackess Recruiting & Consulting</h3> -->
-              <a href="index.html"><img src="assets/img/mackess-logo.jpg" alt="" class="img-fluid  mb-2"
-                  style="width: 220px; height: 80px;"></a>
-              <p>
-                2008 Bremo Rd <br>
-                Richmond, VA, 23226-2443<br>
-                United States <br><br>
-                <strong>Phone:</strong> +1 240 761 2408<br>
-                <strong>Email:</strong> info@mackessrecruiting.com<br>
-              </p>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#hero">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="why-choose-us.html">Why Us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">IT Recruiting</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">IT Consulting</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Social Networks</h4>
-              <p>Visit us on our Social Media Handles</p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="container py-4">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Mackess Recruiting</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Made by <a href="https://yohananconsult.github.io">Yohanan Consult</a>
-        </div>
-      </div>
-    </footer><!-- End Footer -->
-
-  </div>
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
