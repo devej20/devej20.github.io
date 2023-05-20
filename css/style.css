@@ -195,7 +195,7 @@
 
 .page-header {
   background: linear-gradient(rgba(24, 29, 56, 0.7), rgba(24, 29, 56, 0.7)),
-    url(../img/carousel-1.jpg);
+    url(../img/breadcrumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,7 +273,7 @@
   transition: 0.5s;
 }
 
-.category a:hover img,
+.category div:hover img,
 .course-item:hover img {
   transform: scale(1.1);
 }
