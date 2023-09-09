@@ -170,6 +170,7 @@ a:focus {
   position: relative;
   transition: 0.5s;
   z-index: 999;
+  background-color: #123048;
 }
 
 .navbar.nav-sticky {
@@ -213,6 +214,10 @@ a:focus {
   border: 0;
   border-radius: 0;
   background: #f8f9fa;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  color: #0796fe;
 }
 
 @media (min-width: 992px) {
