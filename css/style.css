@@ -578,9 +578,28 @@ a:focus {
   transition: 0.3s;
 }
 
-.fact .fact-item:hover {
+.fact .one .fact-item:hover {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
+  background-color: cyan;
+}
+
+.fact .two .fact-item:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  background-color: rgb(9, 224, 63);
+}
+
+.fact .three .fact-item:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  background-color: rgb(229, 245, 10);
+}
+
+.fact .four .fact-item:hover {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  background-color: rgb(238, 68, 38);
 }
 
 .fact .fact-item img {
