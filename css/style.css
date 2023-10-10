@@ -471,7 +471,7 @@ a:focus {
 
 @media (max-width: 575.98px) {
   .carousel .carousel-text h1 {
-    font-size: 25px;
+    font-size: 75px;
   }
 
   .carousel .carousel-text .btn {
@@ -845,6 +845,8 @@ a:focus {
 @media (max-width: 767.98px) {
   .feature .feature-img {
     margin-bottom: 45px;
+    align-items: center;
+    justify-content: center;
   }
 }
 
