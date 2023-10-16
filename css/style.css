@@ -283,7 +283,6 @@ a:focus {
   height: calc(100vh - 35px);
   min-height: 400px;
   background: #123048;
-  margin-bottom: 45px;
 }
 
 .carousel .container-fluid {
@@ -589,25 +588,25 @@ a:focus {
 .fact .one .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: cyan;
+  background-color: #84a6cb;
 }
 
 .fact .two .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: rgb(9, 224, 63);
+  background-color: #84a6cb;
 }
 
 .fact .three .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: rgb(229, 245, 10);
+  background-color: #84a6cb;
 }
 
 .fact .four .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
-  background-color: rgb(238, 68, 38);
+  background-color: #84a6cb;
 }
 
 .fact .fact-item img {
@@ -619,6 +618,7 @@ a:focus {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 1px;
+  color: #fff;
 }
 
 /*******************************/
@@ -794,7 +794,6 @@ a:focus {
 /********* Feature CSS *********/
 /*******************************/
 .feature {
-  background-color: #ccec17;
   position: relative;
   width: 100%;
   padding: 45px 0;
