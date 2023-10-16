@@ -191,8 +191,8 @@ a:focus {
 }
 
 .navbar .navbar-brand img {
-  max-width: 100%;
-  max-height: 40px;
+  margin-right: 6px;
+  max-height: 80px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -245,6 +245,10 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
   }
+
+  /* .navbar .nav-logo {
+    visibility: hidden;
+  } */
 }
 
 @media (max-width: 991.98px) {
@@ -264,6 +268,10 @@ a:focus {
   .navbar .dropdown-menu {
     box-shadow: none;
   }
+
+  /* .navbar .company-text {
+    visibility: hidden;
+  } */
 }
 
 /*******************************/
@@ -578,25 +586,25 @@ a:focus {
   transition: 0.3s;
 }
 
-.fact .one .fact-item:hover {
+.fact .one .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
   background-color: cyan;
 }
 
-.fact .two .fact-item:hover {
+.fact .two .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
   background-color: rgb(9, 224, 63);
 }
 
-.fact .three .fact-item:hover {
+.fact .three .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
   background-color: rgb(229, 245, 10);
 }
 
-.fact .four .fact-item:hover {
+.fact .four .fact-item {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
   background-color: rgb(238, 68, 38);
@@ -786,6 +794,7 @@ a:focus {
 /********* Feature CSS *********/
 /*******************************/
 .feature {
+  background-color: #ccec17;
   position: relative;
   width: 100%;
   padding: 45px 0;
@@ -1434,7 +1443,7 @@ a:focus {
 /*******************************/
 .footer {
   position: relative;
-  margin-top: 45px;
+  /* margin-top: 45px; */
   padding-top: 90px;
   background: #123048;
 }
