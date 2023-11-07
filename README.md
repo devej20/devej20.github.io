@@ -1,1 +1,0 @@
-# intiqtech.github.io
