@@ -752,7 +752,7 @@ html [class*="section-"].section-bottom-0 {
 }
 
 .section-intro {
-  background: url("../images/bg-img-1.jpg") no-repeat;
+  background: url("../images/img.jpg") no-repeat;
   background-size: cover;
   min-height: 49.47917vw;
   position: relative;
@@ -6316,6 +6316,10 @@ html.rd-navbar-fixed-linked .page {
   display: flex;
   transition-property: transform;
   box-sizing: content-box;
+}
+
+.swiper-wrapper img {
+  border-radius: 50%;
 }
 
 .swiper-container-android .swiper-slide,
