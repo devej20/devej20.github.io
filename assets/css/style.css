@@ -12,7 +12,7 @@
 
 	--primary-color: #2596be;
 	--secondary-color: #F79321;
-	--tetiary-color: #C40A3B;
+	--tetiary-color: #6682a1;
 	--text-color: #F0F0F0;
 	--black-color: #000000;
 	--white-color: #fff;
@@ -26,7 +26,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	overflow-x: hidden;
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 1.8;
 	font-family: 'Mulish', sans-serif;
 	color: #616161;
@@ -3879,7 +3879,7 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 	}
 }
 
-.service-item .title a {
+.service-item .title {
 	color: #232323;
 }
 
