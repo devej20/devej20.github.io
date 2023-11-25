@@ -352,9 +352,9 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="contact-form">
-                        <form action="#">
+                        <form action="https://formspree.io/f/mpzggzbr" method="post">
                             <div class="row">
-
+                                <input name="subject" type="hidden" value="Submit A Prayer Request" />
                                 <div class="col-md-6">
                                     <div class="input-group mt-30">
                                         <input type="text" placeholder="Full Name Here" name="fullname"> <span
@@ -399,8 +399,8 @@
 
                                 <div class="col-12">
                                     <div class="input-group textarea-group mt-30">
-                                        <button class="main-btn small-size ml-auto mr-auto">Send Request <i
-                                                class="fa-solid fa-arrow-right"></i></button>
+                                        <button class="main-btn small-size ml-auto mr-auto" type="submit">Send Request
+                                            <i class="fa-solid fa-arrow-right"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -616,6 +616,11 @@
         document.addEventListener("contextmenu", (event) => {
             event.preventDefault();
         });
+        window.onbeforeunload = () => {
+            for (const form of document.getElementsByTagName('form')) {
+                form.reset();
+            }
+        }
     </script>
 
 

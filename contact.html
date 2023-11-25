@@ -198,7 +198,8 @@
                     </div>
 
                     <div class="form-area">
-                        <form id="contact-form" action="assets/contact.html" method="post">
+                        <form id="contact-form" action="https://formspree.io/f/mpzggzbr" method="post">
+                            <input name="subject" type="hidden" value="Plan A Visit" />
                             <div class="input-group">
                                 <input type="text" name="name" placeholder="Enter your name">
                                 <div class="icon"><i class="fa-solid fa-user"></i></div>
@@ -237,25 +238,6 @@
                             <h4 class="text-center">Parking?</h4>
                             <p> You may park anywhere you like. We have plenty of clearly marked parking spaces near all
                                 of our entrances.
-                            </p><br><br>
-
-                            <h4 class="text-center">What are our services like?</h4>
-                            <p> Typically, our Sunday morning services begin with a word of exaltation & congregational
-                                worship music led by our team of
-                                musicians and singers followed by a message from our pastor.
-                            </p>
-                            <p>The services usually conclude with a response time during which the pastor invites people
-                                to respond to a call for
-                                salvation or healing or to a challenge to grow in the faith.</p>
-                            <br><br>
-
-                            <h4 class="text-center">About our kids?</h4>
-                            <p> Hilltop Kids is designed to provide Kids with learning experiences, development
-                                opportunities, and thoughtful
-                                interaction designed for growing and equipping champions in Christ. We offer a safe,
-                                caring environment, secure
-                                check-in, and well-trained staff to guide your kids in their relationship with God. It
-                                is our goal to help kids grow.
                             </p>
                         </div>
                     </div>
@@ -335,6 +317,11 @@
         document.addEventListener("contextmenu", (event) => {
             event.preventDefault();
         });
+        window.onbeforeunload = () => {
+            for (const form of document.getElementsByTagName('form')) {
+                form.reset();
+            }
+        }
     </script>
 
 
